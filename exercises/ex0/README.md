@@ -1,6 +1,6 @@
 # Pré-requisitos e Configuração do Ambiente
 
-> **NOTA:** Os passos deste exercício já foram executados para o seu usuário para o hands-on do BTP Experience 2024. Por favor, continue com o Exercício 1 como um participante presencial. Você pode se referir a este exercício se estiver fazendo o Workshop Hands-on fora do BTP Experience 2024.
+> **NOTA:** Os passos deste exercício já foram executados para o seu usuário para o hands-on do BTP Experience 2025. Por favor, continue com o Exercício 1 como um participante presencial. Você pode se referir a este exercício se estiver fazendo o Workshop Hands-on fora do BTP Experience 2025.
 
 ## Pré-requisitos
 
