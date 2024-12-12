@@ -69,20 +69,21 @@ No SAP BTP Cockpit, selecione sua global account e siga os passos abaixo:
 
 ## Passo 3: Configurar destino para API do SAP Business Accelerator Hub
 
-Para ver conteúdo de exemplo você também pode configurar um destino à uma API do sistema sandbox do SAP Business Accelerator Hub que expõe conteúdo empresarial. 
+Para que a aplicação acesse exemplos de dados empresariais, configuraremos um destino no subaccount do BTP para a API de [Business Partner](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) do ambiente de testes (sandbox) do SAP Business Accelerator Hub.
 
-Para isso crie um destino para a API de Business Partner fornecidas pelo SAP Business Accelerator Hub. 
-
-1. Com a mesma conta utilizada para acessar o BTP, ou com uma conta gratuita, obtenha sua URL de serviço
+1. Com a mesma conta utilizada para acessar o BTP, ou com uma conta gratuita, acesse a API de [Business Partner](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) e obtenha a URL de serviço, acessando a aba **Overview**, navegando até a área **API Resources**, e seguida na aba **Configuration Details** copie a URL do campo **SANDBOX URL**
      <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
   
-2. Em seguida obtenha a chave de API:
+3. Copie a chave de API, clicando menu no canto direito superir, na opção **Settings** e no botão **Show API Key**.
     <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
 
-3. No subaccount do BPT, no menu lateral esquerdo abra **Connectivity**, em seguida **Destinations**, clique em **Create Destination** e preencha os campos indicados abaixo
+4. Voltando para no subaccount do BPT, no menu lateral esquerdo abra a opção **Connectivity**, em seguida **Destinations**, clique em **Create Destination** e preencha os campos indicados
+  - Name: `DemoAPI-BP`
+  - URL: URL obtida no SAP Business Accelerator Hub
+
      <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
 
-5. Adicione as seguintes propriedades com o valor  para o destino:
+6. Adicione as seguintes propriedades com o valor  para o destino:
 - Propriedade: `AppgyverEnabled`
 - Valor: `true`
   
@@ -101,7 +102,7 @@ Para isso crie um destino para a API de Business Partner fornecidas pelo SAP Bus
 - Propriedade: `URL.headers.APIKey`
 - Valor: chave de API gerada no SAP Business Accelerator Hub
 
-
+  <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
 
 ## Parabéns!
 
