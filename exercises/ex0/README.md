@@ -1,7 +1,5 @@
 # Pré-requisitos e Configuração do Ambiente
 
-> **NOTA:** Os passos deste exercício já foram executados para o seu usuário para o hands-on do BTP Experience 2025. Por favor, continue com o Exercício 1 como um participante presencial. Você pode se referir a este exercício se estiver fazendo o Workshop Hands-on fora do BTP Experience 2025.
-
 ## Pré-requisitos
 
 - SAP BTP Global Account
@@ -68,6 +66,42 @@ No SAP BTP Cockpit, selecione sua global account e siga os passos abaixo:
 4. **Save** suas alterações
 
     <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
+
+## Passo 3: Configurar destino para API do SAP Business Accelerator Hub
+
+Para ver conteúdo de exemplo você também pode configurar um destino à uma API do sistema sandbox do SAP Business Accelerator Hub que expõe conteúdo empresarial. 
+
+Para isso crie um destino para a API de Business Partner fornecidas pelo SAP Business Accelerator Hub. 
+
+1. Com a mesma conta utilizada para acessar o BTP, ou com uma conta gratuita, obtenha sua URL de serviço
+     <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
+  
+2. Em seguida obtenha a chave de API:
+    <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
+
+3. No subaccount do BPT, no menu lateral esquerdo abra **Connectivity**, em seguida **Destinations**, clique em **Create Destination** e preencha os campos indicados abaixo
+     <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
+
+5. Adicione as seguintes propriedades com o valor  para o destino:
+- Propriedade: `AppgyverEnabled`
+- Valor: `true`
+  
+- Propriedade: `HTML5.DynamicDestination`
+- Valor: `true`
+  
+- Propriedade: `WebIDEEnabled`
+- Valor: `true`
+  
+- Propriedade: `sap.applicationdevelopment.actions.enabled`
+- Valor: `true`
+  
+- Propriedade: `sap.processautomation.enabled`
+- Valor: `true`
+  
+- Propriedade: `URL.headers.APIKey`
+- Valor: chave de API gerada no SAP Business Accelerator Hub
+
+
 
 ## Parabéns!
 
