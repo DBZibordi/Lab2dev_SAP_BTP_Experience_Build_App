@@ -72,37 +72,32 @@ No SAP BTP Cockpit, selecione sua global account e siga os passos abaixo:
 Para que a aplicação acesse exemplos de dados empresariais, configuraremos um destino no subaccount do BTP para a API de [Business Partner](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) do ambiente de testes (sandbox) do SAP Business Accelerator Hub.
 
 1. Com a mesma conta utilizada para acessar o BTP, ou com uma conta gratuita, acesse a API de [Business Partner](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) e obtenha a URL de serviço, acessando a aba **Overview**, navegando até a área **API Resources**, e seguida na aba **Configuration Details** copie a URL do campo **SANDBOX URL**
-     <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
-  
-3. Copie a chave de API, clicando menu no canto direito superir, na opção **Settings** e no botão **Show API Key**.
-    <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
+  `https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_BUSINESS_PARTNER`
 
-4. Voltando para no subaccount do BPT, no menu lateral esquerdo abra a opção **Connectivity**, em seguida **Destinations**, clique em **Create Destination** e preencha os campos indicados
-  - Name: `DemoAPI-BP`
-  - URL: URL obtida no SAP Business Accelerator Hub
+    <p align="center"><img src="./images/ex0_part4_0.png" width="100%" /></p>
+  
+2. Copie a chave de API, clicando menu no canto direito superir, na opção **Settings** e no botão **Show API Key**.
+    <p align="center"><img src="./images/ex0_part4_1.png" width="100%" /></p>
 
-     <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
+3. Voltando para no subaccount do BPT, no menu lateral esquerdo abra a opção **Connectivity**, em seguida **Destinations**, clique em **Create Destination**
 
-6. Adicione as seguintes propriedades com o valor  para o destino:
-- Propriedade: `AppgyverEnabled`
-- Valor: `true`
-  
-- Propriedade: `HTML5.DynamicDestination`
-- Valor: `true`
-  
-- Propriedade: `WebIDEEnabled`
-- Valor: `true`
-  
-- Propriedade: `sap.applicationdevelopment.actions.enabled`
-- Valor: `true`
-  
-- Propriedade: `sap.processautomation.enabled`
-- Valor: `true`
-  
-- Propriedade: `URL.headers.APIKey`
-- Valor: chave de API gerada no SAP Business Accelerator Hub
+     <p align="center"><img src="./images/ex0_part4_2.png" width="100%" /></p>
 
-  <p align="center"><img src="./images/ex0_part2_2.png" width="100%" /></p>
+4.  Preencha os campos indicados, adicione as seguintes propriedades e valores no destino através do botão New **Property** de depois de salve as alterações:
+
+- Name: `DemoAPI-BP`
+- URL: URL obtida no SAP Business Accelerator Hub 
+
+| Propriedade  | Valor |
+| ------------- | ------------- |
+|`AppgyverEnabled` | `true`|
+|`HTML5.DynamicDestination` | `true`|
+|`WebIDEEnabled` | `true`|
+|`sap.applicationdevelopment.actions.enabled` | `true`|
+|`sap.processautomation.enabled` | `true`|
+|`URL.headers.APIKey` |chave de API gerada no SAP Business Accelerator Hub|
+
+  <p align="center"><img src="./images/ex0_part4_3.png" width="100%" /></p>
 
 ## Parabéns!
 
