@@ -13,39 +13,30 @@ Nesta seção você irá criar uma página para mostrar os detalhes do parceiro 
 
 Você adicionará uma nova página à sua aplicação e adicionará parâmetros de página para que você possa acessar dados de sua aplicação.
 
-1. Na seção superior esquerda, clique no nome da sua página atual **Home**, que está destacado em azul claro para abrir o menu de páginas do SAP Build Apps.
-
-2. Clique no botão **ADD NEW PAGE**.
+1. Na aba **User Interface**, clique no campo com o nome da sua página atual **Home** e depois eo **Add new page**.
 
     <p align="center"><img src="./images/ex2_part1_1.png" width="100%" /></p>
 
-3. No campo **Page name**, preencha o nome da nova como `Details`, e então clique no botão **OK**. Sua nova página será criada e aberta.
+2. No pop-up que abrirá, preencha o nome da página com `Details`e então clique no botão **OK**.*. Sua nova página será criada e aberta.
 
-4. Na página de detalhes, selecione o toggle button no canto superior direito para mudar a visualização de **VIEW** para **VARIABLES**.
-
-5. Selecione a opção **PAGE PARAMETERS** no lado esquerdo da tela.
-
-6. Clique no botão **ADD PARAMETER**.
+3. Em seguinda, na aba **VARIABLES**, selecione a opção **PAGE PARAMETERS** no lado esquerdo da tela e clique no botão **ADD PARAMETER**.
 
     <p align="center"><img src="./images/ex2_part1_2.png" width="100%" /></p>
 
-7. Criar um novo parâmetro, escolha o parâmetro criado para editar.
+4. Criar um novo parâmetro, selecione o parâmetro criado para editar.
 
-8. No lado direito da tela, altere o **Parameter name** para `partnerId`.
+5. No lado direito da tela, altere o **Variable name** para `partnerId`.
 
-9. Por último clique em **SAVE**.
+6. Por último clique em **SAVE**.
 
 ## Passo 2: Habilitar a navegação da Home Page para a Detail Page
 
-Para exibir os detalhes do parceiro de negócios na página de detalhes, você precisa conectar a página **Home** e a página **Details**. Nesta seção, você primeiro criará uma nova lógica de navegação para passar o parâmetro da página criado na etapa anterior. Na página de detalhes, você carregará o endereço do parceiro de negócios passando o id do parceiro de negócios para a entidade **Business_Partners**.
+Para exibir os detalhes do parceiro de negócios na página de detalhes, você precisa conectar a página **Home** e a página **Details**. Nesta seção, você primeiro criará uma nova lógica de navegação para passar o parâmetro da página criado na etapa anterior. Na página de detalhes, você carregará o endereço do parceiro de negócios passando o id do parceiro de negócios para a entidade **BusinessPartners**.
 
-1. No canto superior esquerdo, clique no nome da sua página atual **Details**, que está destacado em azul claro para abrir o menu de páginas do SAP Build Apps.
+1. Na aba **User Interface** mude da página atual **Details** para a página **Home**.
 
-2. Selecione a página **Home** para criar uma lógica para passar os parâmetros de id e nome do parceiro de negócios da página **Home** para a página **Details**.
+2. Na página **Home**, selecione a primeira linha da lista que havíamos criado
 
-3. Selecione a primeira linha da lista.
-
-4. At the bottom of App Builder where you can see **Add logic to LIST ITEM1**. Choose the arrow to open the logic canvas.
 4. Na parte inferior do App Builder, onde você pode ver **Add logic to LIST ITEM1**. Escolha a seta para abrir o canvas de lógica.
 
     <p align="center"><img src="./images/ex2_part2_1.png" width="100%" /></p>
@@ -70,31 +61,25 @@ Para exibir os detalhes do parceiro de negócios na página de detalhes, você p
 
 12. Selecione **current**.
 
-13. Role a lista e selecione **id**, e então clique em **SAVE**.
+13. Role a lista e selecione **BussinessPartner**, e então clique em **SAVE**.
 
     <p align="center"><img src="./images/ex2_part2_4.png" width="100%" /></p>
 
 15. Clique no botão **SAVE** para salvar as alterações.
 
-With this step now, you can pass the selected business partner id and name fields from the list to the details page.
-
-Neste passo, você pode passar o id do parceiro de negócios selecionado a para a página de detalhes.
+Neste passo, você pode passar o código do parceiro de negócios selecionado para navegar para a página de detalhes.
 
 ## Passo 3: Carregar os dados de um parceiro de negócios na página de detalhes
 
-A página de detalhes recebe o ID do parceiro de negócios da página principal. Neste passo, o ID é usado para obter todos os dados de um parceiro de negócios selecionado.
+A página de detalhes recebe o código do parceiro de negócios da página principal. Com essa informação é possível obter demais dados de um parceiro de negócios selecionado das demais entidades que habilitamos.
 
-1. Na parte esquerda superior da tela, clique  **Home** para navegar para a tela de seleção de páginas.
-
-2. Selecione a página **Details** para mudar para a página de detalhes.
-
-3. Selecione a aba **VARIABLES**.
+1. Na aba **Variables** selecione a página **Details** para mudar para a página de detalhes.
 
 4. Selecione a opção **DATA VARIABLES** no lado esquerdo da tela.
 
 5. Clique na opção **ADD DATA VARIABLE**.
 
-6. Selecione **Business_Partners** da lista.
+6. Selecione **BusinessPartners** da lista.
 
 7. Defina o **Data variable name** para `Business_Partners`.
 
