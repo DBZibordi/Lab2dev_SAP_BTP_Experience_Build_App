@@ -1,4 +1,4 @@
-# Criando sua primeira aplicação com SAP Build Apps
+![image](https://github.com/user-attachments/assets/de797650-03a1-4a60-b701-019055b793ef)# Criando sua primeira aplicação com SAP Build Apps
 
 ## Introdução
 
@@ -49,17 +49,17 @@ Nesta seção, você irá criar uma nova aplicação usando o SAP Build Apps.
 
 8. Selecione **Headline**.
 
-9. Procure a aba **Properties** no menu à direita para alterar o conteúdo do título. Escolha **Content** e altere o conteúdo de **Headline** para **Meus Parceiros de Negócios**.
+9. Procure a aba **Properties** no menu à direita para alterar o conteúdo do título. Escolha **Content** e altere o conteúdo de **Headline** para `Meus Parceiros de Negócios`.
 
     <p align="center"><img src="./images/ex1_step2_8.png" width="100%" /></p>
 
-10. Procure o campo de texto no UI canvas no centro da tela e escolha **x** para remover este componente.
+10. Procure o campo de texto na aba **User Interface** no centro da tela e remova este componente.
 
     <p align="center"><img src="./images/ex1_step2_9.png" width="50%" /></p>
 
 11. Clique na página em branco. No lado direito, em **Properties**, escolha **Page name**.
 
-12. Altere o nome da página para **Home**.
+12. Altere o nome da página para `Home`.
 
     <p align="center"><img src="./images/ex1_step2_11.png" width="100%" /></p>
 
@@ -67,11 +67,13 @@ Nesta seção, você irá criar uma nova aplicação usando o SAP Build Apps.
 
 Para consumir dados de um sistema SAP backend ou mock data que são configurados como uma destination SAP BTP, você precisa habilitar a autenticação.
 
-1. Clique na aba **AUTH** no topo do App Builder.
+1. Clique na aba **App Settings** no topo do App Builder e depois em **Authentication**.
+
+       <p align="center"><img src="./images/ex1_step3_0.png" width="100%" /></p>
 
 2. Clique em habilitar autenticação.
 
-    <p align="center"><img src="./images/ex1_step3_a.png" width="100%" /></p>
+    <p align="center"><img src="./images/ex1_step3_0_1.png" width="100%" /></p>
 
 3. Selecione **SAP BTP Authentication** e clique em **OK**. Isso habilita a autenticação para o projeto.
 
@@ -79,7 +81,7 @@ Para consumir dados de um sistema SAP backend ou mock data que são configurados
 
 Para adicionar uma fonte de dados local você precisa seguir os seguintes passos:
 
-1. Clique na aba **Data** no topo do App Builder.
+1. Clique na aba **Integration** no topo do App Builder.
 
 2. Procure a seção **No system integrated** e clique na opção  **ADD INTEGRATION**.
 
@@ -87,11 +89,13 @@ Para adicionar uma fonte de dados local você precisa seguir os seguintes passos
 
 3. Na próxima tela, selecione **BTP Destinations**.
 
-4. Pesquise e selecione a destination `btp_experience_build_backend_dest`.
+4. Pesquise e selecione a destination `DemoAPI-BP`.
+
+    <p align="center"><img src="./images/ex1_step3_1_1.png" width="100%" /></p>
 
 5. Clique em instalar integração.
 
-6. Dentro da entidade de dados, selecione **Business_Partner**.
+6. Dentro da entidade de dados, selecione **A_BusinessPartner**.
 
     <p align="center"><img src="./images/ex1_step3_2.png" width="100%" /></p>
 
@@ -99,7 +103,7 @@ Para adicionar uma fonte de dados local você precisa seguir os seguintes passos
 
     <p align="center"><img src="./images/ex1_step3_3.png" width="100%" /></p>
 
-8. Escolha **Save** no topo do app builder. Isso adiciona a fonte de dados ao seu projeto. Escolha **UI Canvas** para voltar para a visualização do designer de UI.
+8. Escolha **Save** no topo do app builder. Isso adiciona a fonte de dados ao seu projeto. 
 
 9. Agora você adicionou uma fonte de dados para sua aplicação SAP Build Apps.
 
@@ -115,11 +119,9 @@ Um data variable é essencialmente a mesma coisa que uma page variable que exist
 
 Vamos criar um data variable para armazenar os resultados dos dados do parceiro de negócios provenientes da fonte de dados.
 
-1. Na aba UI CANVAS, escolha o botão de alternância para mudar de **VIEW** para **VARIABLES**.
+1. Na aba **Variables**, escolha **DATA VARIABLES**.
 
-2. No lado esquerdo do app builder, escolha **DATA VARIABLES**.
-
-3. Agora, escolha **ADD DATA VARIABLE** e selecione **Business_Partners**.
+2. Agora, escolha **ADD DATA VARIABLE** e selecione **A_BusinessPartner**.
 
     <p align="center"><img src="./images/ex1_step4_3.png" width="100%" /></p>
 
@@ -129,7 +131,15 @@ Vamos criar um data variable para armazenar os resultados dos dados do parceiro 
 
 5. Clique em **SAVE**.
 
-Agora que a data variable foi criada, alterne de volta para o modo **VIEW**.
+   ### **Limitando quantidade de registros da API**
+
+1. Agora que a data variable foi criada, para efeito de testes do exercício, vamos incluir um limitador de quantidade de registros na seleção dos dados da API.
+2. 
+
+
+
+
+
 
 ### **Criando uma página de lista de parceiros de negócios**
 
@@ -137,7 +147,7 @@ Neste passo você irá criar uma página de lista de parceiros de negócios no a
 
 **Verifique se os dados estão visíveis na interface do usuário**
 
-1. No painel esquerdo do UI CANVAS, você verá a guia **CORE**, role para a seção **LISTS** e escolha **List item**.
+1. Na aba **User Interface**, você verá a guia **CORE**, role para a seção **LISTS** e escolha **List item**.
 
     <p align="center"><img src="./images/ex1_step4_n1.png" width="30%" /></p>
 
@@ -171,9 +181,9 @@ Agora vamos definir quais campos gostaríamos de exibir na interface do usuário
 
 5. Selecione a opção **current**.
 
-6. Selecione a opção **partnerName**
+6. Selecione a opção **SupplierName**
 
-7. Digite `Partner Name` no campo **Set preview value** e clique em **SAVE**.
+7. Digite `Supplier Name` no campo **Set preview value** e clique em **SAVE**.
 
     <p align="center"><img src="./images/ex1_step4_nn6.png" width="50%" /></p>
 
@@ -185,7 +195,7 @@ Agora vamos definir quais campos gostaríamos de exibir na interface do usuário
 
 11. Selecione a opção **current**.
 
-12. Selecione a opção **id**
+12. Selecione a opção **Supplier**
 
 13. Digite `Id` no campo **Set preview value** e clique em **SAVE**.
 
