@@ -105,7 +105,7 @@ Para adicionar uma fonte de dados local você precisa seguir os seguintes passos
 
     <p align="center"><img src="./images/ex1_step3_3.png" width="100%" /></p>
 
-8. Agora, procure por** A_BusinessPartnerAddress** e escolha **Enable Data Entity** também.
+8. Agora, procure por **A_BusinessPartnerAddress** e escolha **Enable Data Entity** também.
 
 9. Repita o mesmo para **A_AddressPhoneNumber**.
 
