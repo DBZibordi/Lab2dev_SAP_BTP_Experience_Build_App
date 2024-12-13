@@ -158,10 +158,9 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
     <p align="center"><img src="./images/ex2_part5_2.png" width="100%" /></p>
 
-6. Agora, Arraste um componente **Row** para dentro do container criado.
+6. Agora, arraste um componente **Row** para dentro do container criado.
 
     <p align="center"><img src="./images/ex2_part5_2_1.png" width="100%" /></p>
-
 
 7. No lado direito em **PROPERTIES**, clique no botão **Repeat with**.
 
