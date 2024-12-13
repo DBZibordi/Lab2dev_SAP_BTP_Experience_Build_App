@@ -38,7 +38,7 @@ Nesta seção, você irá criar uma nova aplicação usando o SAP Build Apps.
 
 4. Defina um nome para o projeto no seguinte formato ``BTP_EXP_##`` onde **##** é um identificador único como um número de inscrição ou o seu nome, por exemplo, `BTP_EXP_01`.
 
-5. Você pode adicionar uma descrição curta no campo **Short Description** mas esse campo não é obrigatório.
+5. Você pode adicionar uma descrição curta no campo **Description** mas esse campo não é obrigatório.
 
 6. Selecione a opção **Create**.
 
@@ -53,11 +53,11 @@ Nesta seção, você irá criar uma nova aplicação usando o SAP Build Apps.
 
     <p align="center"><img src="./images/ex1_step2_8.png" width="100%" /></p>
 
-10. Procure o campo de texto na aba **User Interface** no centro da tela e remova este componente.
+10. Procure o campo de texto no centro da tela e remova o componente.
 
     <p align="center"><img src="./images/ex1_step2_9.png" width="50%" /></p>
 
-11. Clique na página em branco. No lado direito, em **Properties**, escolha **Page name**.
+11. Clique na página em branco. Depois no lado direito, em **Properties**, escolha **Page name**.
 
 12. Altere o nome da página para `Home`.
 
@@ -69,11 +69,13 @@ Para consumir dados de um sistema SAP backend ou mock data que são configurados
 
 1. Clique na aba **App Settings** no topo do App Builder e depois em **Authentication**.
 
-       <p align="center"><img src="./images/ex1_step3_0.png" width="100%" /></p>
+    <p align="center"><img src="./images/ex1_step3_0.png" width="100%" /></p>
+  
 
 2. Clique em habilitar autenticação.
 
     <p align="center"><img src="./images/ex1_step3_0_1.png" width="100%" /></p>
+     
 
 3. Selecione **SAP BTP Authentication** e clique em **OK**. Isso habilita a autenticação para o projeto.
 
@@ -125,20 +127,25 @@ Vamos criar um data variable para armazenar os resultados dos dados do parceiro 
 
     <p align="center"><img src="./images/ex1_step4_3.png" width="100%" /></p>
 
-4. Altere o campo **Data variable name** para `Business_Partners`
+4. Altere o campo **Data variable name** para `BusinessPartner`
 
    <p align="center"><img src="./images/ex1_step4_4.png" width="100%" /></p>
 
 5. Clique em **SAVE**.
 
-   ### **Limitando quantidade de registros da API**
+### **Limitando quantidade de registros da API**
 
 1. Agora que a data variable foi criada, para efeito de testes do exercício, vamos incluir um limitador de quantidade de registros na seleção dos dados da API.
-2. 
-
-
-
-
+   
+2. Clique na opção para adicionar um binding
+   
+      <p align="center"><img src="./images/ex1_step4_4_1.png" width="100%" /></p>
+      
+3. E selecione a opção **Object with properties**
+    <p align="center"><img src="./images/ex1_step4_4_2.png" width="100%" /></p>
+    
+4. Na opção do **Page size** determine **Static number**, preencha com o valor `10` e depois salve.
+    <p align="center"><img src="./images/ex1_step4_4_3.png" width="100%" /></p>
 
 
 ### **Criando uma página de lista de parceiros de negócios**
