@@ -139,7 +139,7 @@ Vamos criar um data variable para armazenar os resultados dos dados do parceiro 
    
 2. Na opção **Paging** clique no "X" para modificar o binding.
    
-      <p align="center"><img src="./images/ex1_step4_4_1.png" width="100%" /></p>
+      <p align="center"><img src="./images/ex1_step4_4_1.png" width="50%" /></p>
       
 3. Selecione a opção **Object with properties**
     <p align="center"><img src="./images/ex1_step4_4_2.png" width="100%" /></p>
