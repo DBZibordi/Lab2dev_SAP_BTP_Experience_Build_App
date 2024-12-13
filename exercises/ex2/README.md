@@ -55,7 +55,7 @@ Para exibir os detalhes do parceiro de negócios na página de detalhes, você p
 
 8. Selecione o componente **Open page**.
 
-9. No lado direito da tela, selecione **PROPERTIES → Parameters → partnerId**.
+9. No lado direito da tela, selecione **PROPERTIES → Parameters → businessPartnerId**.
 
 10. Selecione o botão **X**. Irá abrir um popup.
 
