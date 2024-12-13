@@ -125,7 +125,7 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
 1. Na aba **User Interface**, na página **Details**, selecione o componente **Title** e arraste para a página. No lado direito da tela, clique no botão **ABC** na seção **Content**.
 
-    <p align="center"><img src="./images/ex2_part4_2.png" width="100%" /></p>
+    <p align="center"><img src="./images/ex2_part4_1.png" width="100%" /></p>
 
 3. Selecione **Data and Variables**.
 
