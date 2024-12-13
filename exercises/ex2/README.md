@@ -171,35 +171,17 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
    <p align="center"><img src="./images/ex2_part5_2_3.png" width="100%" /></p>
 
-10. No lado direito da tela, no campo **Content** preencha o campo com Nome do Parceiro.
+10. Repita o procedimento acima, agora para o lado direito do componente **Row** adicionando **repeated.current.HouseNumber**
+   
+11. Adicione uma nova linha no Container.
+    
+ <p align="center"><img src="./images/ex2_part5_2_4.png" width="100%" /></p>
 
-    <p align="center"><img src="./images/ex2_part5_3.png" width="100%" /></p>
+12. Para esta segunda linha adicione os componentes **repeated.current.PostalCode** e **repeated.current.CityName** repetindo o procedimento de adicionar o texto em cada um dos lados e modificar os seus conteúdos.
 
-11. Arraste um componente **Text** da aba **CORE** para o lado direito do componente **Row**.
+ <p align="center"><img src="./images/ex2_part5_2_5.png" width="100%" /></p>
 
-12. No lado direito da tela, clique no botão **ABC** na seção **Content**.
-
-    <p align="center"><img src="./images/ex2_part5_4.png" width="100%" /></p>
-
-13. Selecione **Data item in repeat**.
-
-14. No campo select repeat selecione  **current**, no campo select repeat data property selecione **partnerName** e por último no campo Set preview value escreva Parceiro.
-
-    <p align="center"><img src="./images/ex2_part5_5.png" width="100%" /></p>
-
-15. Clique em **SAVE**.
-
-16. Repita os passos anteriores para os seguintes campos:
-
-    |Field name | Field type |
-    |----|----|
-    |Email | Text |
-    |Address | Text |
-    |Phone | Text |
-
-    <p align="center"><img src="./images/ex2_part5_6.png" width="100%" /></p>
-
-17. Clique no botão **SAVE** para salvar as alterações na página.
+13. Clique no botão **SAVE** para salvar as alterações na página.
 
 
 ## Passo 6: Pré visualização da aplicação
