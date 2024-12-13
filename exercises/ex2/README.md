@@ -163,10 +163,13 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
 7. Arraste um componente **Text** da aba **CORE** para o lado esquerdo do componente **Row**.
 
-   <p align="center"><img src="./images/ex2_part5_2_2.png" width="100%" /></p>
-   
-7. No lado direito em **PROPERTIES**, clique no botão **Repeat with**.
+8. No lado direito em **PROPERTIES**, clique no botão **ABC** em **Content**
 
+   <p align="center"><img src="./images/ex2_part5_2_2.png" width="100%" /></p>
+
+9. Selecione **Formula**, depois, no menu lateral, escolha **Currently repeated data items**, procure na lista por **repeated.current.StreetName** e clique em **Enter +**. Por fim, clique em salvar **SAVE**
+
+   <p align="center"><img src="./images/ex2_part5_2_3.png" width="100%" /></p>
 
 10. No lado direito da tela, no campo **Content** preencha o campo com Nome do Parceiro.
 
