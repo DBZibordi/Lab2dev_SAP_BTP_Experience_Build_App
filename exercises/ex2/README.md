@@ -25,9 +25,13 @@ Você adicionará uma nova página à sua aplicação e adicionará parâmetros 
 
 4. Criar um novo parâmetro, selecione o parâmetro criado para editar.
 
-5. No lado direito da tela, altere o **Variable name** para `partnerId`.
+5. No lado direito da tela, altere o **Variable name** para `businessPartnerId`.
 
-6. Por último clique em **SAVE**.
+6. Novamente, escolha **ADD PARAMETER**. e crie um segundo parâmetro.
+
+7. Alterar nome do parâmetro para `businessPartnerName`.
+
+8. Por último clique em **SAVE**.
 
 ## Passo 2: Habilitar a navegação da Home Page para a Detail Page
 
@@ -63,7 +67,9 @@ Para exibir os detalhes do parceiro de negócios na página de detalhes, você p
 
 13. Role a lista e selecione **BussinessPartner**, e então clique em **SAVE**.
 
-    <p align="center"><img src="./images/ex2_part2_4.png" width="100%" /></p>
+14. Repita o mesmo para o parâmetro **businesspartnerName** e selecione **current.BusinessPartnerFullName**.
+
+<p align="center"><img src="./images/ex2_part2_4.png" width="100%" /></p>
 
 15. Clique no botão **SAVE** para salvar as alterações.
 
