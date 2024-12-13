@@ -137,14 +137,14 @@ Vamos criar um data variable para armazenar os resultados dos dados do parceiro 
 
 1. Agora que a data variable foi criada, para efeito de testes do exercício, vamos incluir um limitador de quantidade de registros na seleção dos dados da API.
    
-2. Clique na opção para adicionar um binding
+2. Na opção **Paging** clique no "X" para modificar o binding.
    
       <p align="center"><img src="./images/ex1_step4_4_1.png" width="100%" /></p>
       
-3. E selecione a opção **Object with properties**
+3. Selecione a opção **Object with properties**
     <p align="center"><img src="./images/ex1_step4_4_2.png" width="100%" /></p>
     
-4. Na opção do **Page size** determine **Static number**, preencha com o valor `10` e depois salve.
+4. Na opção do **Page size** determine o binding **Static number**, preencha com o valor `10` e salve.
     <p align="center"><img src="./images/ex1_step4_4_3.png" width="100%" /></p>
 
 
@@ -168,7 +168,7 @@ Neste passo você irá criar uma página de lista de parceiros de negócios no a
 
     <p align="center"><img src="./images/ex1_step4_n4.png" width="80%" /></p>
 
-5. Selecione **Business_Partners** na lista e clique em **SAVE**.
+5. Selecione **BusinessPartners** na lista e clique em **SAVE**.
 
 6. Você configurou que a lista é populada com a variável de dados que obtém os dados do parceiro de negócios.
 
@@ -188,7 +188,7 @@ Agora vamos definir quais campos gostaríamos de exibir na interface do usuário
 
 5. Selecione a opção **current**.
 
-6. Selecione a opção **SupplierName**
+6. Selecione a opção **Business Partner Name**
 
 7. Digite `Supplier Name` no campo **Set preview value** e clique em **SAVE**.
 
