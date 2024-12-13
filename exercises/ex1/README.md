@@ -188,9 +188,9 @@ Agora vamos definir quais campos gostaríamos de exibir na interface do usuário
 
 5. Selecione a opção **current**.
 
-6. Selecione a opção **Business Partner Name**
+6. Selecione a opção **BusinessPartnerName**
 
-7. Digite `Supplier Name` no campo **Set preview value** e clique em **SAVE**.
+7. Digite `Business Partner Name` no campo **Set preview value** e clique em **SAVE**.
 
     <p align="center"><img src="./images/ex1_step4_nn6.png" width="50%" /></p>
 
@@ -202,7 +202,7 @@ Agora vamos definir quais campos gostaríamos de exibir na interface do usuário
 
 11. Selecione a opção **current**.
 
-12. Selecione a opção **Supplier**
+12. Selecione a opção **BusinessPartner**
 
 13. Digite `Id` no campo **Set preview value** e clique em **SAVE**.
 
