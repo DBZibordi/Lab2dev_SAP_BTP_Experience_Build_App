@@ -67,7 +67,7 @@ Para exibir os detalhes do parceiro de negócios na página de detalhes, você p
 
 13. Role a lista e selecione **BussinessPartner**, e então clique em **SAVE**.
 
-14. Repita o mesmo para o parâmetro **businesspartnerName** e selecione **current.BusinessPartnerFullName**.
+14. Repita o mesmo para o parâmetro **businesspartnerName** e selecione **BusinessPartnerFullName**.
 
 <p align="center"><img src="./images/ex2_part2_4.png" width="100%" /></p>
 
@@ -85,9 +85,9 @@ A página de detalhes recebe o código do parceiro de negócios da página princ
 
 5. Clique na opção **ADD DATA VARIABLE**.
 
-6. Selecione **BusinessPartners** da lista.
+6. Selecione **A_BusinessPartnerAddress** da lista.
 
-7. Defina o **Data variable name** para `Business_Partners`.
+7. Defina o **Data variable name** para `BusinessPartnerAddress`.
 
 8. Selecione o botão **Filter Conditions** no lado direito.
 
@@ -97,7 +97,7 @@ A página de detalhes recebe o código do parceiro de negócios da página princ
 
     <p align="center"><img src="./images/ex2_part3_2.png" width="60%" /></p>
 
-9. Selecione a opção **Add Condition**. No dropdown **Property**, selecione **id** e sob a propriedade **Compared Value**, clique no botão **ABC**.
+10. Selecione a opção **Add Condition**. No dropdown **Property**, selecione **BusinessPartner** e sob a propriedade **Compared Value**, clique no botão **ABC**.
 
     <p align="center"><img src="./images/ex2_part3_3.png" width="100%" /></p>
 
@@ -109,7 +109,7 @@ A página de detalhes recebe o código do parceiro de negócios da página princ
 
     <p align="center"><img src="./images/ex2_part3_5.png" width="100%" /></p>
 
-13. Selecione **partnerId** em clique no botão salvar **SAVE**.
+13. Selecione **businessPartnerId** em clique no botão salvar **SAVE**.
 
     <p align="center"><img src="./images/ex2_part3_6.png" width="100%" /></p>
 
@@ -123,11 +123,7 @@ Agora, sua aplicação carrega os dados de um parceiro de negócios selecionado 
 
 Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o parceiro de negócios atual.
 
-1. Selecione a descrição padrão na página e delete pressionando **X**.
-
-    <p align="center"><img src="./images/ex2_part4_1.png" width="100%" /></p>
-
-2. Selecione o componente headline. No lado direito da tela, clique no botão **ABC** na seção **Content**.
+1. Na aba **User Interface**, na página **Details**, selecione o componente **Title** e arraste para a página. No lado direito da tela, clique no botão **ABC** na seção **Content**.
 
     <p align="center"><img src="./images/ex2_part4_2.png" width="100%" /></p>
 
@@ -139,7 +135,7 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
     <p align="center"><img src="./images/ex2_part4_4.png" width="80%" /></p>
 
-5. Selecione **partnerId** e escreva `Partner ID` no campo **Set preview value**.
+5. Selecione **businessPartnerName** e escreva `Nome do Parceiro de Negócio` no campo **Optional preview value**.
 
 6. Clique no botão **SAVE**.
 
@@ -147,7 +143,8 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
 ## Passo 5: Exibir as informações do parceiro de negócios na página de detalhes
 
-1. Arraste um componente **Layout->Row** da aba **CORE** no lado esquerdo para o canvas.
+
+1. Arraste para a página um **Container** da aba **CORE** à esquerda para a tela.
 
 2. No lado direito em **PROPERTIES**, clique no botão **Repeat with**.
 
@@ -155,33 +152,42 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
 3. No popup, selecione **Data and Variables → Data variable**.
 
-4. Selecione **Business_Partners** na lista.
+4. Selecione **BusinessPartnerAddress** na lista.
 
 5. Choose **SAVE**.
 
     <p align="center"><img src="./images/ex2_part5_2.png" width="100%" /></p>
 
-6. Arraste um componente **Text** da aba **CORE** para o lado esquerdo do componente **Row**.
+6. Agora, Arraste um componente **Row** para dentro do container criado.
 
-7. No lado direito da tela, no campo **Content** preencha o campo com Nome do Parceiro.
+    <p align="center"><img src="./images/ex2_part5_2_1.png" width="100%" /></p>
+
+
+7. No lado direito em **PROPERTIES**, clique no botão **Repeat with**.
+
+    <p align="center"><img src="./images/ex2_part5_1.png" width="100%" /></p>
+
+8. Arraste um componente **Text** da aba **CORE** para o lado esquerdo do componente **Row**.
+
+9. No lado direito da tela, no campo **Content** preencha o campo com Nome do Parceiro.
 
     <p align="center"><img src="./images/ex2_part5_3.png" width="100%" /></p>
 
-8. Arraste um componente **Text** da aba **CORE** para o lado direito do componente **Row**.
+10. Arraste um componente **Text** da aba **CORE** para o lado direito do componente **Row**.
 
-9. No lado direito da tela, clique no botão **ABC** na seção **Content**.
+11. No lado direito da tela, clique no botão **ABC** na seção **Content**.
 
     <p align="center"><img src="./images/ex2_part5_4.png" width="100%" /></p>
 
-10. Selecione **Data item in repeat**.
+12. Selecione **Data item in repeat**.
 
-11. No campo select repeat selecione  **current**, no campo select repeat data property selecione **partnerName** e por último no campo Set preview value escreva Parceiro.
+13. No campo select repeat selecione  **current**, no campo select repeat data property selecione **partnerName** e por último no campo Set preview value escreva Parceiro.
 
     <p align="center"><img src="./images/ex2_part5_5.png" width="100%" /></p>
 
-12. Clique em **SAVE**.
+14. Clique em **SAVE**.
 
-13. Repita os passos anteriores para os seguintes campos:
+15. Repita os passos anteriores para os seguintes campos:
 
     |Field name | Field type |
     |----|----|
@@ -191,7 +197,7 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
     <p align="center"><img src="./images/ex2_part5_6.png" width="100%" /></p>
 
-14. Clique no botão **SAVE** para salvar as alterações na página.
+16. Clique no botão **SAVE** para salvar as alterações na página.
 
 
 ## Passo 6: Pré visualização da aplicação
