@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/de797650-03a1-4a60-b701-019055b793ef)# Criando sua primeira aplicação com SAP Build Apps
+# Criando sua primeira aplicação com SAP Build Apps
 
 ## Introdução
 
