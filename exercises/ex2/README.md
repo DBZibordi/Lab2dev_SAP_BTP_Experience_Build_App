@@ -228,45 +228,41 @@ A página de detalhes deve ser parecida com a imagem abaixo:
     > Explicação: Como o AddressPhoneNumber é uma entidade separada, selecionamos a entrada do número de telefone que pertence ao endereço atual. Isso é obtido com a função FIND, que pega uma lista como o primeiro parâmetro e os critérios de seleção como o segundo. Aproveitamos o relacionamento da entidade com a chave AddressID correspondente.
 
 
-7. Certifique-se de que o botão ainda esteja selecionado e clique em **Add logic ti BUTTON1** no canto inferior direito.
+7. Certifique-se de que o botão ainda esteja selecionado e clique em **Add logic to BUTTON 1** no canto inferior direito.
 
     <p align="center"><img src="./images/ex2_part7_0_3.png" width="100%" /></p>
    
 
-6. Ná página de detalhes, arraste um componente **Button** da aba **CORE** para o canvas, preencha o campo label com o valor `Ligar para o Parceiro de Negócios` e por último selecione o campo abaixo para adicionar uma lógica ao botão.
-
-    <p align="center"><img src="./images/ex2_part7_1.png" width="100%" /></p>
-
-7. Clique em **MARKETPLACE**.
+8. Clique em **MARKETPLACE**.
 
     <p align="center"><img src="./images/ex2_part7_2.png" width="70%" /></p>
 
     
-8. Procure por **Open URL** e clique no resultado destacado abaixo.
+9. Procure por **Open URL** e clique no resultado destacado abaixo.
 
     <p align="center"><img src="./images/ex2_part7_3.png" width="100%" /></p>
 
-9. Clique no botão **Install**.
+10. Clique no botão **Install**.
 
-10. Arraste o **Open URL** para o canvas.
+11. Arraste o **Open URL** para o canvas.
 
-6. Conecte os dois **Componentes** passando o mouse sobre os pontos finais e conectando-os.
+12. Conecte os dois **Componentes** passando o mouse sobre os pontos finais e conectando-os.
 
     <p align="center"><img src="./images/ex2_part7_4.png" width="100%" /></p>
 
-7. Clique no botão **Open URL** e pressione o botão **ABC**.
+13. Clique no botão **Open URL** e pressione o botão **ABC**.
 
     <p align="center"><img src="./images/ex2_part7_5.png" width="100%" /></p>
 
-8. Clique em **Formula**.
+14. Clique em **Formula**.
 
-9. Insira `"tel: "+FIND(data.AddressPhoneNumber, item.AddressID == repeated.current.AddressID).InternationalPhoneNumber` como expressão de fórmula.
+15. Insira `"tel: "+FIND(data.AddressPhoneNumber, item.AddressID == repeated.current.AddressID).InternationalPhoneNumber` como expressão de fórmula.
 
     <p align="center"><img src="./images/ex2_part7_6.png" width="100%" /></p>
 
-11. Clique em **Save**.
+16. Clique em **Save**.
 
-12. Parabéns, você adicionou a função de **Ligar** para o seu aplicativo e pode testar no **Web Preview**.
+17. Parabéns, você adicionou a função de **Ligar** para o seu aplicativo e pode testar no **Web Preview**.
 
 ## Parabéns
 
