@@ -41,37 +41,37 @@ Para exibir os detalhes do parceiro de negócios na página de detalhes, você p
 
 2. Na página **Home**, selecione a primeira linha da lista que havíamos criado
 
-4. Na parte inferior do App Builder, onde você pode ver **Add logic to LIST ITEM1**. Escolha a seta para abrir o canvas de lógica.
+3. Na parte inferior do App Builder, onde você pode ver **Add logic to LIST ITEM1**. Escolha a seta para abrir o canvas de lógica.
 
     <p align="center"><img src="./images/ex2_part2_1.png" width="100%" /></p>
 
-5. No menu de componentes no lado esquerdo, escolha **NAVIGATION → Open page** para adicionar uma função que navega para uma nova página.
+4. No menu de componentes no lado esquerdo, escolha **NAVIGATION → Open page** para adicionar uma função que navega para uma nova página.
 
-6. Arraste e solte para a tela de lógica.
+5. Arraste e solte para a tela de lógica.
 
-7. Passe o mouse sobre o **Component tap** e clique sobre o ponto redondo. Conecte os pontos dos componentes **Component tap** e **Open page**. Isso cria uma nova conexão e define a lógica para abrir uma nova página no evento de toque em um item na lista.
+6. Passe o mouse sobre o **Component tap** e clique sobre o ponto redondo. Conecte os pontos dos componentes **Component tap** e **Open page**. Isso cria uma nova conexão e define a lógica para abrir uma nova página no evento de toque em um item na lista.
 
     <p align="center"><img src="./images/ex2_part2_2.png" width="100%" /></p>
 
-8. Selecione o componente **Open page**.
+7. Selecione o componente **Open page**.
 
-9. No lado direito da tela, selecione **PROPERTIES → Parameters → businessPartnerId**.
+8. No lado direito da tela, selecione **PROPERTIES → Parameters → businessPartnerId**.
 
-10. Selecione o botão **X**. Irá abrir um popup.
+9. Selecione o botão **X**. Irá abrir um popup.
 
     <p align="center"><img src="./images/ex2_part2_3.png" width="100%" /></p>
 
-11. Selecione **Data item in repeat**.
+10. Selecione **Data item in repeat**.
 
-12. Selecione **current**.
+11. Selecione **current**.
 
-13. Role a lista e selecione **BussinessPartner**, e então clique em **SAVE**.
+12. Role a lista e selecione **BussinessPartner**, e então clique em **SAVE**.
 
-14. Repita o mesmo para o parâmetro **businesspartnerName** e selecione **BusinessPartnerFullName**.
+13. Repita o mesmo para o parâmetro **businesspartnerName** e selecione **BusinessPartnerFullName**.
 
 <p align="center"><img src="./images/ex2_part2_4.png" width="100%" /></p>
 
-15. Clique no botão **SAVE** para salvar as alterações.
+14. Clique no botão **SAVE** para salvar as alterações.
 
 Neste passo, você pode passar o código do parceiro de negócios selecionado para navegar para a página de detalhes.
 
@@ -81,41 +81,41 @@ A página de detalhes recebe o código do parceiro de negócios da página princ
 
 1. Na aba **Variables** selecione a página **Details** para mudar para a página de detalhes.
 
-4. Selecione a opção **DATA VARIABLES** no lado esquerdo da tela.
+2. Selecione a opção **DATA VARIABLES** no lado esquerdo da tela.
 
-5. Clique na opção **ADD DATA VARIABLE**.
+3. Clique na opção **ADD DATA VARIABLE**.
 
-6. Selecione **A_BusinessPartnerAddress** da lista.
+4. Selecione **A_BusinessPartnerAddress** da lista.
 
-7. Defina o **Data variable name** para `BusinessPartnerAddress`.
+5. Defina o **Data variable name** para `BusinessPartnerAddress`.
 
-8. Selecione o botão **Filter Conditions** no lado direito.
+6. Selecione o botão **Filter Conditions** no lado direito.
 
     <p align="center"><img src="./images/ex2_part3_1.png" width="100%" /></p>
 
-9. Um popup será aberto. Selecione **Object with properties**.
+7. Um popup será aberto. Selecione **Object with properties**.
 
     <p align="center"><img src="./images/ex2_part3_2.png" width="60%" /></p>
 
-10. Selecione a opção **Add Condition**. No dropdown **Property**, selecione **BusinessPartner** e sob a propriedade **Compared Value**, clique no botão **ABC**.
+8. Selecione a opção **Add Condition**. No dropdown **Property**, selecione **BusinessPartner** e sob a propriedade **Compared Value**, clique no botão **ABC**.
 
     <p align="center"><img src="./images/ex2_part3_3.png" width="100%" /></p>
 
-11. Selecione **Data and Variables**.
+9. Selecione **Data and Variables**.
 
     <p align="center"><img src="./images/ex2_part3_4.png" width="100%" /></p>
 
-12. Selecione **Page parameter**.
+10. Selecione **Page parameter**.
 
     <p align="center"><img src="./images/ex2_part3_5.png" width="100%" /></p>
 
-13. Selecione **businessPartnerId** em clique no botão salvar **SAVE**.
+1. Selecione **businessPartnerId** em clique no botão salvar **SAVE**.
 
     <p align="center"><img src="./images/ex2_part3_6.png" width="100%" /></p>
 
-14. Clique no botão **SAVE** para salvar as alterações na página.
+12. Clique no botão **SAVE** para salvar as alterações na página.
 
-15. Mude para o modo **VIEW**.
+13. Mude para o modo **VIEW**.
 
 Agora, sua aplicação carrega os dados de um parceiro de negócios selecionado e armazena na variável de dados.
 
@@ -127,17 +127,17 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
     <p align="center"><img src="./images/ex2_part4_1.png" width="100%" /></p>
 
-3. Selecione **Data and Variables**.
+2. Selecione **Data and Variables**.
 
     <p align="center"><img src="./images/ex2_part4_3.png" width="80%" /></p>
 
-4. Selecione **Page parameter**.
+3. Selecione **Page parameter**.
 
     <p align="center"><img src="./images/ex2_part4_4.png" width="80%" /></p>
 
-5. Selecione **businessPartnerName** e escreva `Nome do Parceiro de Negócio` no campo **Optional preview value**.
+4. Selecione **businessPartnerName** e escreva `Nome do Parceiro de Negócio` no campo **Optional preview value**.
 
-6. Clique no botão **SAVE**.
+5. Clique no botão **SAVE**.
 
     <p align="center"><img src="./images/ex2_part4_5.png" width="100%" /></p>
 
@@ -186,9 +186,9 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
 ## Passo 6: Pré visualização da aplicação
 
-1. Clique na aba **LAUNCH**.
+1. Na tela do App Builder clique em **Preview** no canto superior direito.
 
-2. Selecione a opção **OPEN PREVIEW PORTAL** e depois clique no botão **Open web preview**.
+2. Selecione a opção **Open web preview**.
 
 3. Selecione sua aplicação.
 
@@ -205,21 +205,50 @@ A página de detalhes deve ser parecida com a imagem abaixo:
 
 ## Passo 7: Adicionando opção de chamada
 
-1. Ná página de detalhes, arraste um componente **Button** da aba **CORE** para o canvas, preencha o campo label com o valor `Ligar para o Parceiro de Negócios` e por último selecione o campo abaixo para adicionar uma lógica ao botão.
+
+1. Na aba **Variables** e na página **Details** clique em **DATA VARIABLES**.
+
+2. Clique em **Add data variable**, selecione **A_AddressPhoneNumber** e renomei para `AddressPhoneNumber`.
+
+    <p align="center"><img src="./images/ex2_part7_0.png" width="100%" /></p>
+
+3. Clique no botão **SAVE**
+
+4. Mude para a aba **User Interface**
+
+5. Ná página de detalhes, arraste um componente **Button** da aba **CORE** no Container e depois clique no **ABC** em **Label** .
+
+    <p align="center"><img src="./images/ex2_part7_0_1.png" width="100%" /></p>
+
+6. Adicione a seguinte fórmula: `"Ligar: "+FIND(data.AddressPhoneNumber, item.AddressID == repeated.current.AddressID).InternationalPhoneNumber`
+
+    <p align="center"><img src="./images/ex2_part7_0_2.png" width="100%" /></p>
+
+
+    > Explicação: Como o AddressPhoneNumber é uma entidade separada, selecionamos a entrada do número de telefone que pertence ao endereço atual. Isso é obtido com a função FIND, que pega uma lista como o primeiro parâmetro e os critérios de seleção como o segundo. Aproveitamos o relacionamento da entidade com a chave AddressID correspondente.
+
+
+7. Certifique-se de que o botão ainda esteja selecionado e clique em **Add logic ti BUTTON1** no canto inferior direito.
+
+    <p align="center"><img src="./images/ex2_part7_0_3.png" width="100%" /></p>
+   
+
+6. Ná página de detalhes, arraste um componente **Button** da aba **CORE** para o canvas, preencha o campo label com o valor `Ligar para o Parceiro de Negócios` e por último selecione o campo abaixo para adicionar uma lógica ao botão.
 
     <p align="center"><img src="./images/ex2_part7_1.png" width="100%" /></p>
 
-2. Clique em **MARKETPLACE**.
+7. Clique em **MARKETPLACE**.
 
     <p align="center"><img src="./images/ex2_part7_2.png" width="70%" /></p>
 
-3. Procure por **Open URL** e clique no resultado destacado abaixo.
+    
+8. Procure por **Open URL** e clique no resultado destacado abaixo.
 
     <p align="center"><img src="./images/ex2_part7_3.png" width="100%" /></p>
 
-4. Clique no botão **Install**.
+9. Clique no botão **Install**.
 
-5. Arraste o **Open URL** para o canvas.
+10. Arraste o **Open URL** para o canvas.
 
 6. Conecte os dois **Componentes** passando o mouse sobre os pontos finais e conectando-os.
 
@@ -231,13 +260,13 @@ A página de detalhes deve ser parecida com a imagem abaixo:
 
 8. Clique em **Formula**.
 
-9. E escreva a seguinte expressão `""tel:"+data.Business_Partners[0].phone`.
+9. Insira `"tel: "+FIND(data.AddressPhoneNumber, item.AddressID == repeated.current.AddressID).InternationalPhoneNumber` como expressão de fórmula.
 
     <p align="center"><img src="./images/ex2_part7_6.png" width="100%" /></p>
 
-10. Clique em **Save**.
+11. Clique em **Save**.
 
-11. Parabéns, você adicionou a função de **Ligar** para o seu aplicativo e pode testar no **Web Preview**.
+12. Parabéns, você adicionou a função de **Ligar** para o seu aplicativo e pode testar no **Web Preview**.
 
 ## Parabéns
 
