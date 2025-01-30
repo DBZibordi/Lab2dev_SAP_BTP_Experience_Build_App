@@ -210,17 +210,13 @@ Agora vamos definir quais campos gostaríamos de exibir na interface do usuário
 
 ## Passo 6: Pré-visualização da aplicação
 
-1. Clique na aba **LAUNCH**.
+1. Clique no botão **Preview**.
 
-2. Selecione a opção **OPEN PREVIEW PORTAL**.
+2. Clique no botão **Open web preview**.
 
-    > Uma nova aba será aberta. Nessa tela você terá duas opções para pré visualização da sua aplicação. Você pode clicar no botão **Open web preview** para visualizar a aplicação no navegador baixar o aplicativo para Android ou iOS e gerar um PIN para visualizar a aplicação no seu dispositivo móvel.
+3. Selecione o aplicativo que você acabou de criar e clique em **Open preview**. 
 
-3. Clique no botão **Open web preview**.
-
-4. Selecione o aplicativo que você acabou de criar.
-
-5. O aplicativo será exibido no portal de pré-visualização.
+4. O aplicativo será exibido no portal de pré-visualização.
 
     <p align="center"><img src="./images/ex1_step5_2.png" width="100%" /></p>
 

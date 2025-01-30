@@ -115,8 +115,6 @@ A página de detalhes recebe o código do parceiro de negócios da página princ
 
 12. Clique no botão **SAVE** para salvar as alterações na página.
 
-13. Mude para o modo **VIEW**.
-
 Agora, sua aplicação carrega os dados de um parceiro de negócios selecionado e armazena na variável de dados.
 
 ## Passo 4: Exibir o ID do parceiro de negócios na página de detalhes
