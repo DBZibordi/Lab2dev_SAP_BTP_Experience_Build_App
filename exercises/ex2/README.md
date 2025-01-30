@@ -177,6 +177,8 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
    <p align="center"><img src="./images/ex2_part5_2_3.png" width="100%" /></p>
 
+   <p align="center"><img src="./images/ex2_part5_2_3_1.png" width="100%" /></p>
+
 12. Repita o procedimento acima, agora para o lado direito do componente **Row** adicionando **repeated.current.HouseNumber**
    
 13. Adicione uma nova linha no Container.
