@@ -202,75 +202,14 @@ Você irá alterar o cabeçalho da página de detalhes, para que ele exiba o par
 
     <p align="center"><img src="./images/ex2_part6_1.png" width="70%" /></p>
 
-A home page deve ser parecida com a imagem abaixo:
+4. A home page deve ser parecida com a imagem abaixo:
 
 <p align="center"><img src="./images/ex2_part6_3.png" width="100%" /></p>
 
-A página de detalhes deve ser parecida com a imagem abaixo:
+5. E a página de detalhes deve ser parecida com a imagem abaixo:
 
 <p align="center"><img src="./images/ex2_part6_4.png" width="100%" /></p>
 
-
-## Passo 7: Adicionando opção de chamada
-
-
-1. Na aba **Variables** e na página **Details** clique em **DATA VARIABLES**.
-
-2. Clique em **Add data variable**, selecione **A_AddressPhoneNumber** e renomei para `AddressPhoneNumber`.
-
-    <p align="center"><img src="./images/ex2_part7_0.png" width="100%" /></p>
-
-3. Clique no botão **SAVE**
-
-4. Mude para a aba **User Interface**
-
-5. Ná página de detalhes, arraste um componente **Button** da aba **CORE** no Container e depois clique no **ABC** em **Label** .
-
-    <p align="center"><img src="./images/ex2_part7_0_1.png" width="100%" /></p>
-
-6. Adicione a seguinte fórmula: `"Ligar: "+FIND(data.AddressPhoneNumber, item.AddressID == repeated.current.AddressID).InternationalPhoneNumber`
-
-    <p align="center"><img src="./images/ex2_part7_0_2.png" width="100%" /></p>
-
-
-    > Explicação: Como o AddressPhoneNumber é uma entidade separada, selecionamos a entrada do número de telefone que pertence ao endereço atual. Isso é obtido com a função FIND, que pega uma lista como o primeiro parâmetro e os critérios de seleção como o segundo. Aproveitamos o relacionamento da entidade com a chave AddressID correspondente.
-
-
-7. Certifique-se de que o botão ainda esteja selecionado e clique em **Add logic to BUTTON 1** no canto inferior direito.
-
-    <p align="center"><img src="./images/ex2_part7_0_3.png" width="100%" /></p>
-   
-
-8. Clique em **MARKETPLACE**.
-
-    <p align="center"><img src="./images/ex2_part7_2.png" width="70%" /></p>
-
-    
-9. Procure por **Open URL** e clique no resultado destacado abaixo.
-
-    <p align="center"><img src="./images/ex2_part7_3.png" width="100%" /></p>
-
-10. Clique no botão **Install**.
-
-11. Arraste o **Open URL** para o canvas.
-
-12. Conecte os dois **Componentes** passando o mouse sobre os pontos finais e conectando-os.
-
-    <p align="center"><img src="./images/ex2_part7_4.png" width="100%" /></p>
-
-13. Clique no botão **Open URL** e pressione o botão **ABC**.
-
-    <p align="center"><img src="./images/ex2_part7_5.png" width="100%" /></p>
-
-14. Clique em **Formula**.
-
-15. Insira `"tel: "+FIND(data.AddressPhoneNumber, item.AddressID == repeated.current.AddressID).InternationalPhoneNumber` como expressão de fórmula.
-
-    <p align="center"><img src="./images/ex2_part7_6.png" width="100%" /></p>
-
-16. Clique em **Save**.
-
-17. Parabéns, você adicionou a função de **Ligar** para o seu aplicativo e pode testar no **Web Preview**.
 
 ## Parabéns
 
