@@ -58,45 +58,24 @@ Nesta seção, o aplicativo será conectado com o SAP Build Work Zone, standard 
 12. Agora, você será encaminhado para o editor do site. Clique em **Editar**, procure a função `XP161_01` na coluna da direita, clique no botão **+** e depois em **Salvar**
 
     <p align="center"><img src="./images/12.png" width="100%" /></p>    
+
+13. Agora iremos habilitar o serviços de identidade em nuvem para o Work Zone.
+    No menu lateral abra novamente o **Configuração**, clique na aba **Identity Authentication**, marque o checkbox e depois clique em **Ativar**
+
+    <p align="center"><img src="./images/13.png" width="100%" /></p>          
     
-...
+14. No menu do lado esquerdo navegue novamente até **Diretório de Sites**, mas agora  clique no pequeno ícone **Acessar o site** do site que havia sido criado anteriormente.
 
-25. Go back to the Site Directory and find your created site. Open it by choosing the small **Go to site** icon.
+    <p align="center"><img src="./images/13.png" width="100%" /></p>          
 
-    <p align="center"><img src="./images/9 site_directory.png" width="100%" /></p>
+15. Nessa etapa você deve conseguir visualizar o seu aplicativo que foi desenvolvido na seção definida, abri-lo e navegar entre as páginas criadas.
 
-26. You should be able to see your app in its defined section
+    <p align="center"><img src="./images/15.png" width="100%" /></p>     
 
-    <p align="center"><img src="./images/10 site.png" width="100%" /></p>
+## Parabéns
 
-## Step 2: Use your app in SAP Mobile Start
+Você arrasou! Você completou o Exercício 4. 🥳
 
-1. On your Site and select **Settings** from your **profile icon**
+Parabéns! Agora você concluiu o desenvolvimento do seu aplicativo. Nesta última etapa, você integrou seu aplicativo no SAP Build Work Zone, standard edition, 
 
-    <p align="center"><img src="./images/WZ_1.png" width="100%" /></p>
-
-2. Go to **SAP Mobile Start** in the settings and select your **platform** and the **Register tab**
-
-    <p align="center"><img src="./images/WZ_2.png" width="100%" /></p>
-
-4. Open your SAP Mobile Start app, **agree** to the EULA and Privacy statements and **scan** the QR-Code
-
-    <p align="center"><img src="./images/SMS_1.PNG" width="45%" /></p>
-    <p align="center"><img src="./images/SMS_2.PNG" width="45%" /></p>
-
-5. Enter your user credentials to login
-
-    <p align="center"><img src="./images/SMS_4 placeholder login.PNG" width="45%" /></p>
-
-6. Find and open your app in SAP Mobile Start
-
-    <p align="center"><img src="./images/SMS_5.png" width="45%" /></p>
-    <p align="center"><img src="./images/SMS_6.png" width="45%" /></p>
-
-## Congrats
-
-You Rock! You completed Exercise 4. 🥳
-
-Congratulations! You now have finished the development of your application. In this last step you have integrated your app in SAP Build Work Zone, standard edition, to have one central entry point to show all of your SAP BTP applications. Finally, you have have opend your app in SAP Mobile Start.
-
-You can now navigate to the [Overview](../../#exercises).  
+Você pode voltar para a página [Overview](../../#exercises).  
