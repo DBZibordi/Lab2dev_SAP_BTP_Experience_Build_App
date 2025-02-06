@@ -11,43 +11,61 @@ Nesta seção, você fara o build da aplicação que você criou usando o SAP Bu
 
 ## Passo 1: Build da aplicação
 
-1. Clique na aba **LAUNCH**
+1.	Clique no botão **Publish** e em seguida em **Create a Release Version**
 
-2. Selecione **OPEN BUILD SERVICE**
+   <p align="center"><img src="./images/1.png" width="100%" /></p>
 
-    <p align="center"><img src="./images/1.png" width="100%" /></p>
+2.	Gere a versão 1.0.0 clicando em **Release 1.0.0**
 
-3. Em **Web App**, clique em **CONFIGURE**
+   <p align="center"><img src="./images/2.png" width="100%" /></p>
 
-    <p align="center"><img src="./images/2.png" width="60%" /></p>
+3.	Em seguida clique no botão **Open**
 
-4. Em **Bundle Settings**, escolha **MTAR** e então clique em **NEXT**.
+   <p align="center"><img src="./images/3.png" width="100%" /></p>
 
-    <p align="center"><img src="./images/3.png" width="60%" /></p>
+4.	Clique novamente botão **Publish** e agora em **Build and Deploy**
 
-5. Em **Image Assets**, clique em **NEXT**
+   <p align="center"><img src="./images/4.png" width="100%" /></p>
 
-6. Em **Plugins**, clique em **NEXT**
+5.	Na tela que será aberta clique em **Create Configuration**
 
-7. Na seção **Web App**, clique em **BUILD**
+   <p align="center"><img src="./images/5.png" width="100%" /></p>
 
-    <p align="center"><img src="./images/4.png" width="60%" /></p>
+6.	Em seguida escolha a opção **SAP Build Work Zone**
+ 
+   <p align="center"><img src="./images/6.png" width="100%" /></p>
 
-8. Selecione o File Type como **MTAR**
+7.	Preencha o campo **Name of Configuration** com `BTP_EXP_01` e em seguida clique em **Create**
+ 
+   <p align="center"><img src="./images/7.png" width="100%" /></p>
 
-9. Selecione a última client runtime version.
+8.	Clique nos três pontos **...** da configuração que foi criada e em seguida na opção **Build**
+ 
+   <p align="center"><img src="./images/8.png" width="100%" /></p>
 
-10. Escreva o número da versão, por exemplo, `0.0.1`
+9.	No pop-up que será aberto escolha a versão **1.0.0** do Release que criou do aplicativo e preencha a versão para o build com `1.0.0` e depois clique em **Build**
 
-11. Clique no botão **BUILD**
+    <p align="center"><img src="./images/9.png" width="100%" /></p>
 
-    <p align="center"><img src="./images/5.png" width="60%" /></p>
+10.	Aguarde a criação do build até o status ficar **Delivered**, então clique na linha do build 
+ 
+   <p align="center"><img src="./images/10.png" width="100%" /></p>
 
-    O build pode levar mais de 10 minutos. Normalmente a página se atualiza automaticamente. Mas você também pode atualizá-la manualmente de tempos em tempos para verificar o status.
+11.	Na tela que foi aberta clique em **Deploy**
+ 
+   <p align="center"><img src="./images/11.png" width="100%" /></p>
 
-12. Quando o build estiver completo, deverá aparecer no histórico de builds.
+12.	No pop-up que será aberto escolha o endpoint em que seu BTP foi criado, faça o login, escolha a Organization, o Space e em seguida clique em **Continue**
+ 
+   <p align="center"><img src="./images/12.png" width="100%" /></p>
 
-    <p align="center"><img src="./images/6.png" width="60%" /></p>
+13.	Essa etapa do deploy pode levar alguns minutos, aguarde a finalização do deploy e ao final será gerado o link do endpoint do aplicativo gerado. Depois, pode clicar em **Close**
+ 
+   <p align="center"><img src="./images/13.png" width="100%" /></p>
+
+14.	O mesmo link do aplicativo poderá ser acessado pelo menu **HTML5 Aplication**s na tela do **Subaccount**
+
+   <p align="center"><img src="./images/14.png" width="100%" /></p>
 
 ## Parabéns!
 

@@ -1,108 +1,88 @@
-# Integrate your app with SAP Build Work Zone, standard edition and add it to SAP Mobile Start
+# Integre seu aplicativo com o SAP Build Work Zone, standard edition.
 
-## Introduction
+## Introdução
 
-In this section, the application will be connected with SAP Build Work Zone, standard edition. This allows to have one central entry point to show all of your SAP BTP applications.
+Nesta seção, o aplicativo será conectado com o SAP Build Work Zone, standard edition. Isso permite ter um ponto de entrada central para utilizar os aplicativos no SAP BTP.
 
-## Prerequisites
+## Pré-requisitos
 
-- You have completed previous exercises
-- Your SAP Build App is built successfully
+- Concluiu os exercícios anteriores
+- Seu SAP Build App foi criado com sucesso
 
-## Step 1: Deploy your App
+## Etapa 1: Integre seu aplicativo com SAP Build Work Zone, standard edition
 
-> **Please note:** If your app did not finish to build in time, you can skip this step and continue with **Step 2** using the pre-built application `XP161_Reference` (id `43206`). If you continue with the pre-built app instead of your own, remember its id for the following steps.
+1. Na sua Subaccount, abra o menu lateral **Services**, depois escolha **Instances and Subscriptions** e abra o **SAP Build Work Zone, standard edition**
+   
+    <p align="center"><img src="./images/1.png" width="100%" /></p>   
 
-1. In **Web App** choose **DEPLOY_MTA**, select `cf-eu10-004` in the dropdown menu for **Endpoint** 
+2. Na tela que foi aberta, no menu do lado esquerdo, escolha o ícone do **Gerenciador de canais** e depois clique no ícone de atualização para buscar o conteúdo atualizado.
 
-    You will need to authorize with your identity provider the first time you do this.
+    <p align="center"><img src="./images/2.png" width="100%" /></p>   
 
-    In the popup enter `tdct3ched1-platform` as origin key and press **Sign in with alternative identity provider**
+3. No menu lateral escolha **Gerenciador de conteúdo** e depois em  **Explorador de conteúdo**.
+   
+    <p align="center"><img src="./images/3.png" width="100%" /></p>   
 
-    <p align="center"><img src="./images/1_deploy_idp_selection.png" width="60%" /></p>
 
-    >**Please Note:** If you are executing this outside of the TechEd 2023 hands-on workshop or on your own landscape, you may choose the applicable option for your SAP BTP subaccount.
+4. Selecione o bloco **HTML5 Apps** do seu respectivo de subdomínio.
 
-2. Select the organization and space and then choose **DEPLOY_MTA**
+    <p align="center"><img src="./images/4.png" width="100%" /></p>   
 
-    <p align="center"><img src="./images/8 ba_deploy_org_space.png" width="60%" /></p>
+5. Procure pelo aplicativo com o nome criado no Build Apps `BTP_EXP_01`, marque a caixa de seleção e selecione o botão **Adicionar** .
 
-3. Wait until the deployment is completed and choose **CLOSE**
+    <p align="center"><img src="./images/5.png" width="100%" /></p>   
 
-    <p align="center"><img src="./images/9 ba_deploy_deploying.png" width="60%" /></p>
 
-## Step 2: Integrate your app with SAP Build Work Zone, standard edition
+6. No menu lateral abra novamente o **Gerenciador de conteúdo**, clique no botão **Criar** e selecione **Grupo** no menu suspenso.
+   
+    <p align="center"><img src="./images/6.png" width="100%" /></p>   
 
-1. Open your [SAP Build Work Zone, standard edition](https://xp161-dt162-x75hy9xc.dt.launchpad.cfapps.eu10.hana.ondemand.com/)
 
-2. In the menu on the left side choose the icon for **Channel Manager**.
+10. adicione o título do grupo `Apps do XP161_01`  e 
 
-3. Choose the refresh icon to fetch the updated content.
+11. Search for your application name `XP161_##` at the top left and tick the assignment status toggle.
 
-    <p align="center"><img src="./images/1 content_channels_refresh.png" width="100%" /></p>
 
-4. Choose **Content Manager** in the menu on the left and open **Content Explorer**.
-    <p align="center"><img src="./images/2 content_explorer_tile.png" width="100%" /></p>
 
-5. Select the tile **HTML5 Apps** with your respective subdomain name.
-
-    > **Please note:** You may see a lot of other Content Channels, simply ignore these. Only the **HTML5 Apps** one is relevant for this hands-on.
-
-    <p align="center"><img src="./images/2 content_explorer_tile_2.png" width="80%" /></p>
-
-6. In the items table, search for your application by its name `XP161_##` (using your number) or the application id and set the checkmark. Choose the button **Add** afterwards.
-
-    <p align="center"><img src="./images/3 add_to_my_content.png" width="100%" /></p>
-
-7. Go back to the root page of the **Content Manager** by clicking the link above the headline **Content Explorer**. Click the **Create** button and  select **Group** from the dropdown.
-
-    <p align="center"><img src="./images/4 my_content_new_group.png" width="70%" /></p>
-
-8. Add the title `Apps of XP161_##` replacing `##` with your participant number.
-
-9. Search for your application name `XP161_##` at the top left and tick the assignment status toggle.
-
-    > **Please note:** You may see a lot of other content before searching. Just ignore it
-
-10. Choose **Save**.
+12. Choose **Save**.
 
     <p align="center"><img src="./images/5 assign_items_save.png" width="100%" /></p>
 
-11. Back in the **Content Manager**, search for the role `XP161_##` (replacing `##` with your number) and click on the row with your role. Click the **Edit** button.
+13. Back in the **Content Manager**, search for the role `XP161_##` (replacing `##` with your number) and click on the row with your role. Click the **Edit** button.
 
      <p align="center"><img src="./images/6 role_search.png" width="100%" /></p>
 
-12. Search for your application name using `XP161_##` (using your number) at the top left and tick the assignment status toggle.
+14. Search for your application name using `XP161_##` (using your number) at the top left and tick the assignment status toggle.
 
-13. Click **Save**.
+15. Click **Save**.
 
     <p align="center"><img src="./images/6 role_assign_items_save.png" width="100%" /></p>
 
-14. In the menu on the left side navigate to **Site Directory.**
+16. In the menu on the left side navigate to **Site Directory.**
 
-15. Choose button **Create Site.**
+17. Choose button **Create Site.**
 
     <p align="center"><img src="./images/7 create_site.png" width="60%" /></p>
 
-16. Enter `XP161_##` (replacing `##` with your number) as name for the site and choose **Create.**
+18. Enter `XP161_##` (replacing `##` with your number) as name for the site and choose **Create.**
 
-17. Now, you are forwarded to the site editor. Click **Edit**.
+19. Now, you are forwarded to the site editor. Click **Edit**.
 
     Search for your role `XP161_##` (using your number) on the right column and click the **+** button.
 
     <p align="center"><img src="./images/8 site_editor.png" width="100%" /></p>
 
-18. Repeat this for the role `Purchaser` and select the one with the subtitle `S/4HANA`.
+20. Repeat this for the role `Purchaser` and select the one with the subtitle `S/4HANA`.
 
     <p align="center"><img src="./images/8 site_editor_purchaser.png" width="100%" /></p>
 
-19. Click **Save**.
+21. Click **Save**.
 
-20. Go back to the Site Directory and find your created site. Open it by choosing the small **Go to site** icon.
+22. Go back to the Site Directory and find your created site. Open it by choosing the small **Go to site** icon.
 
     <p align="center"><img src="./images/9 site_directory.png" width="100%" /></p>
 
-21. You should be able to see your app in its defined section
+23. You should be able to see your app in its defined section
 
     <p align="center"><img src="./images/10 site.png" width="100%" /></p>
 
