@@ -23,7 +23,6 @@ Nesta seção, o aplicativo será conectado com o SAP Build Work Zone, standard 
    
     <p align="center"><img src="./images/3.png" width="100%" /></p>   
 
-
 4. Selecione o bloco **HTML5 Apps** do seu respectivo de subdomínio.
 
     <p align="center"><img src="./images/4.png" width="100%" /></p>   
@@ -32,57 +31,41 @@ Nesta seção, o aplicativo será conectado com o SAP Build Work Zone, standard 
 
     <p align="center"><img src="./images/5.png" width="100%" /></p>   
 
-
 6. No menu lateral abra novamente o **Gerenciador de conteúdo**, clique no botão **Criar** e selecione **Grupo** no menu suspenso.
    
     <p align="center"><img src="./images/6.png" width="100%" /></p>   
 
+7. Insira o nome do grupo `Apps do XP161_01`, procure pelo aplicativo `BTP_EXP_01` que foi adicionado anteriormente no Gerenciador de Conteúdo, mude o campo **Status de Atribuição** conforme abaixo e clique em **Salvar**:
 
-10. adicione o título do grupo `Apps do XP161_01`  e 
+    <p align="center"><img src="./images/7.png" width="100%" /></p>   
 
-11. Search for your application name `XP161_##` at the top left and tick the assignment status toggle.
+8. No menu lateral abra novamente o **Gerenciador de conteúdo**, clique no botão **Criar** e selecione **Função** no menu suspenso.
 
+    <p align="center"><img src="./images/8.png" width="100%" /></p>   
 
+9. Insira o nome da função `XP161_01`, procure pelo aplicativo `BTP_EXP_01` que foi adicionado anteriormente no Gerenciador de Conteúdo, mude o campo **Status de Atribuição** conforme abaixo e clique em **Salvar**:
 
-12. Choose **Save**.
+    <p align="center"><img src="./images/9.png" width="100%" /></p>   
 
-    <p align="center"><img src="./images/5 assign_items_save.png" width="100%" /></p>
+10. No menu do lado esquerdo navegue até **Diretório de Sites** e no bloco clique no botão **+ Criar site**
 
-13. Back in the **Content Manager**, search for the role `XP161_##` (replacing `##` with your number) and click on the row with your role. Click the **Edit** button.
+    <p align="center"><img src="./images/10.png" width="100%" /></p>   
 
-     <p align="center"><img src="./images/6 role_search.png" width="100%" /></p>
+11. Preencha o campo Nome do site do pop-up com `XP161_01` e clique em  **Criar**
 
-14. Search for your application name using `XP161_##` (using your number) at the top left and tick the assignment status toggle.
+    <p align="center"><img src="./images/11.png" width="100%" /></p>    
 
-15. Click **Save**.
+12. Agora, você será encaminhado para o editor do site. Clique em **Editar**, procure a função `XP161_01` na coluna da direita, clique no botão **+** e depois em **Salvar**
 
-    <p align="center"><img src="./images/6 role_assign_items_save.png" width="100%" /></p>
+    <p align="center"><img src="./images/12.png" width="100%" /></p>    
+    
+...
 
-16. In the menu on the left side navigate to **Site Directory.**
-
-17. Choose button **Create Site.**
-
-    <p align="center"><img src="./images/7 create_site.png" width="60%" /></p>
-
-18. Enter `XP161_##` (replacing `##` with your number) as name for the site and choose **Create.**
-
-19. Now, you are forwarded to the site editor. Click **Edit**.
-
-    Search for your role `XP161_##` (using your number) on the right column and click the **+** button.
-
-    <p align="center"><img src="./images/8 site_editor.png" width="100%" /></p>
-
-20. Repeat this for the role `Purchaser` and select the one with the subtitle `S/4HANA`.
-
-    <p align="center"><img src="./images/8 site_editor_purchaser.png" width="100%" /></p>
-
-21. Click **Save**.
-
-22. Go back to the Site Directory and find your created site. Open it by choosing the small **Go to site** icon.
+25. Go back to the Site Directory and find your created site. Open it by choosing the small **Go to site** icon.
 
     <p align="center"><img src="./images/9 site_directory.png" width="100%" /></p>
 
-23. You should be able to see your app in its defined section
+26. You should be able to see your app in its defined section
 
     <p align="center"><img src="./images/10 site.png" width="100%" /></p>
 
