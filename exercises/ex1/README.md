@@ -103,11 +103,9 @@ Para adicionar uma fonte de dados local você precisa seguir os seguintes passos
 
 7. Agora, procure por **A_BusinessPartnerAddress** e escolha **Enable Data Entity** também.
 
-8. Repita o mesmo para **A_AddressPhoneNumber**.
+8. Escolha **Save** no topo do app builder. Isso adiciona a fonte de dados ao seu projeto. 
 
-9. Escolha **Save** no topo do app builder. Isso adiciona a fonte de dados ao seu projeto. 
-
-10. Agora você adicionou uma fonte de dados para sua aplicação SAP Build Apps.
+9. Agora você adicionou uma fonte de dados para sua aplicação SAP Build Apps.
 
 ## Passo 5: Criando uma página de lista de parceiros de negócios
 
