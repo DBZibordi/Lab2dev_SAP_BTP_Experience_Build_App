@@ -13,42 +13,36 @@ Nesta seção, o aplicativo será conectado com o SAP Build Work Zone, standard 
 
 1. Na sua Subaccount, abra o menu lateral **Services**, depois escolha **Instances and Subscriptions** e abra o **SAP Build Work Zone, standard edition**
    
-       <p align="center"><img src="./images/1.png" width="100%" /></p>
+    <p align="center"><img src="./images/1.png" width="100%" /></p>   
 
 2. Na tela que foi aberta, no menu do lado esquerdo, escolha o ícone do **Gerenciador de canais** e depois clique no ícone de atualização para buscar o conteúdo atualizado.
 
-       <p align="center"><img src="./images/2.png" width="100%" /></p>
+    <p align="center"><img src="./images/2.png" width="100%" /></p>   
 
 3. No menu lateral escolha **Gerenciador de conteúdo** e depois em  **Explorador de conteúdo**.
    
-       <p align="center"><img src="./images/3.png" width="100%" /></p>
+    <p align="center"><img src="./images/3.png" width="100%" /></p>   
 
 
 4. Selecione o bloco **HTML5 Apps** do seu respectivo de subdomínio.
 
-       <p align="center"><img src="./images/5.png" width="100%" /></p>
+    <p align="center"><img src="./images/4.png" width="100%" /></p>   
 
 5. Procure pelo aplicativo com o nome criado no Build Apps `BTP_EXP_01`, marque a caixa de seleção e selecione o botão **Adicionar** .
 
-          <p align="center"><img src="./images/6.png" width="100%" /></p>
+    <p align="center"><img src="./images/5.png" width="100%" /></p>   
 
 
-...
+6. No menu lateral abra novamente o **Gerenciador de conteúdo**, clique no botão **Criar** e selecione **Grupo** no menu suspenso.
    
+    <p align="center"><img src="./images/6.png" width="100%" /></p>   
 
-8. In the items table, search for your application by its name `XP161_##` (using your number) or the application id and set the checkmark. Choose the button **Add** afterwards.
 
-       <p align="center"><img src="./images/6.png" width="100%" /></p>
-
-9. Go back to the root page of the **Content Manager** by clicking the link above the headline **Content Explorer**. Click the **Create** button and  select **Group** from the dropdown.
-
-    <p align="center"><img src="./images/4 my_content_new_group.png" width="70%" /></p>
-
-10. Add the title `Apps of XP161_##` replacing `##` with your participant number.
+10. adicione o título do grupo `Apps do XP161_01`  e 
 
 11. Search for your application name `XP161_##` at the top left and tick the assignment status toggle.
 
-    > **Please note:** You may see a lot of other content before searching. Just ignore it
+
 
 12. Choose **Save**.
 
