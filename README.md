@@ -22,8 +22,6 @@ Os requisitos para seguir os exercícios neste repositório são:
 
 ## Exercícios
 
-> **NOTA:** Para a Sessão Prática, já preparamos o landscape com **SAP Build Work Zone, standard edition** e **SAP Build Apps**. Por favor, comece diretamente com o Exercício 1 como participante presencial.
-
 - [Exercício 0 - Pré-requisitos e Configuração do landscape](exercises/ex0/)
 - [Exercício 1 - Crie seu primeiro aplicativo com SAP Build Apps](exercises/ex1/)
 - [Exercício 2 - Adicione mais funcionalidades à sua aplicação](exercises/ex2/)
