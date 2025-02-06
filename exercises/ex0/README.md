@@ -2,7 +2,7 @@
 
 ## Pré-requisitos
 
-- Conta SAP BTP Trial [(tutorial como de criar uma conta no SAP BTP Trial)](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+- Conta SAP BTP Trial ([tutorial como de criar uma conta no SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html))
 - SAP BTP Subaccount
   - Ambiente Cloud Foundry ativo
   - *SAP Build Work Zone, standard edition* entitlement
