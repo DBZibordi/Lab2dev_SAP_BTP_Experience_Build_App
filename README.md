@@ -32,8 +32,8 @@ Os requisitos para seguir os exercícios neste repositório são:
 
 ## Links e Recursos Adicionais
 
-- [SAP BTP Trial]([https://account.hanatrial.ondemand.com/trial/#/home/trial)
-- [SAP Build Apps (Documentação)]([https://help.sap.com/docs/build-apps/service-guide/what-is-sap-build-apps?locale=en-US)
+- [SAP BTP Trial](https://account.hanatrial.ondemand.com/trial/#/home/trial)
+- [SAP Build Apps (Documentação)](https://help.sap.com/docs/build-apps/service-guide/what-is-sap-build-apps?locale=en-US)
 - [SAP Build Work Zone, standard edition (Comunidade SAP)](https://community.sap.com/topics/work-zone/standard)
 - [SAP Build - low-code & no-code (Comunidade SAP)](https://community.sap.com/topics/low-code-no-code)
 - [Identity Provisioning Service (Documentação)](https://help.sap.com/docs/Launchpad_Service/8c8e1958338140699bd4811b37b82ece/1c231333f1d24ae0a8e60ce688c4f692.html)
