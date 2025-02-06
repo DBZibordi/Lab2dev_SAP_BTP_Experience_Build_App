@@ -10,7 +10,7 @@ Este repositório contém o material para o desenvolvimento de Aplicativos Móve
 
 Os requisitos para seguir os exercícios neste repositório são:
 
-- Global Account SAP BTP
+- Conta SAP BTP Trial
 - Subaccount SAP BTP
   - Ambiente Cloud Foundry habilitado
   - Entitlement *SAP Build Work Zone, standard edition*
