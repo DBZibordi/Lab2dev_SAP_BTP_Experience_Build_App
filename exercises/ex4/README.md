@@ -66,7 +66,7 @@ Nesta seção, o aplicativo será conectado com o SAP Build Work Zone, standard 
     
 14. No menu do lado esquerdo navegue novamente até **Diretório de Sites**, mas agora  clique no pequeno ícone **Acessar o site** do site que havia sido criado anteriormente.
 
-    <p align="center"><img src="./images/13.png" width="100%" /></p>          
+    <p align="center"><img src="./images/14.png" width="100%" /></p>          
 
 15. Nessa etapa você deve conseguir visualizar o seu aplicativo que foi desenvolvido na seção definida, abri-lo e navegar entre as páginas criadas.
 
