@@ -166,7 +166,7 @@ Neste passo você irá criar uma página de lista de parceiros de negócios no a
 
     <p align="center"><img src="./images/ex1_step4_n4.png" width="80%" /></p>
 
-5. Selecione **BusinessPartners** na lista e clique em **SAVE**.
+5. Selecione **BusinessPartner** na lista e clique em **SAVE**.
 
 6. Você configurou que a lista é populada com a variável de dados que obtém os dados do parceiro de negócios.
 
@@ -205,6 +205,8 @@ Agora vamos definir quais campos gostaríamos de exibir na interface do usuário
 13. Digite `Id` no campo **Optional preview value** e clique em **SAVE**.
 
     <p align="center"><img src="./images/ex1_step4_nn7.png" width="50%" /></p>
+
+14. Em seguida, salve o projeto no canto superior direito
 
 ## Passo 6: Pré-visualização da aplicação
 
