@@ -202,7 +202,7 @@ Agora vamos definir quais campos gostaríamos de exibir na interface do usuário
 
 12. Selecione a opção **BusinessPartner**
 
-13. Digite `Id` no campo **Set preview value** e clique em **SAVE**.
+13. Digite `Id` no campo **Optional preview value** e clique em **SAVE**.
 
     <p align="center"><img src="./images/ex1_step4_nn7.png" width="50%" /></p>
 
