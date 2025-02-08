@@ -46,7 +46,7 @@ No SAP BTP Cockpit, selecione sua global account e siga os passos abaixo:
 
     <p align="center"><img src="./images/ex0_part1_5.png" width="100%" /></p>
 
-9. O booster irá criar os serviços necessários para o SAP Build Apps e SAP Build Work Zone, standard edition. Isso pode levar alguns minutos. Quando o booster estiver completo, você verá uma mensagem de sucesso. Clique na opção **Navigate to Subaccount** para ir para a subconta.
+9. O booster irá criar os serviços necessários para o SAP Build Apps e SAP Build Work Zone, standard edition. Isso pode levar alguns minutos. Quando o booster estiver completo, você verá uma mensagem de sucesso. Clique na opção **Navigate to Subaccount** para ir para a subaccount.
 
     <p align="center"><img src="./images/ex0_part1_6.png" width="100%" /></p>
 
@@ -54,7 +54,7 @@ No SAP BTP Cockpit, selecione sua global account e siga os passos abaixo:
 
 ## Passo 2: Atribuir roles para o SAP Build Work Zone, standard edition
 
-1. Dentro da subconta, navegue até **Security** > **Role Collections**
+1. Dentro da subaccount, navegue até **Security** > **Role Collections**
 
 2. Na lista de role collection, procure **Launchpad Admin** e clique para abrir
 
@@ -101,9 +101,9 @@ Para que a aplicação acesse exemplos de dados empresariais, configuraremos um 
 
 ## Parabéns!
 
-Incrível! Você completou o Exercício 0 para os pré-requisitos. 🥳
+Incrível! Você completou os pré-requisitos. 🥳
 
-Agora você é capaz de ver tanto o **SAP Build Apps** quanto o **SAP Build Work Zone, standard edition** em sua subconta BTP em **Instances and Subscriptions**. Usando o ícone de janela pequena você pode acessar a aplicação para trabalhar com eles.
+Agora você é capaz de ver tanto o **SAP Build Apps** quanto o **SAP Build Work Zone, standard edition** em sua subaccount BTP em **Instances and Subscriptions**. Usando o ícone de janela pequena você pode acessar a aplicação para trabalhar com eles.
 
 <p align="center"><img src="./images/ex0_part3_1.png" width="100%" /></p>
 
