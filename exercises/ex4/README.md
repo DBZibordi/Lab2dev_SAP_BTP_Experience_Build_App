@@ -59,12 +59,23 @@ Nesta seção, o aplicativo será conectado com o SAP Build Work Zone, standard 
 
     <p align="center"><img src="./images/12.png" width="100%" /></p>    
 
-13. Agora iremos habilitar o serviços de identidade em nuvem para o Work Zone.
+
+## Etapa 2: Habilitando a Autenticaçãoe e Atribuição das Permissões
+
+1. Iremos habilitar o serviços de identidade em nuvem para o Work Zone.
     No menu lateral abra novamente o **Configuração**, clique na aba **Identity Authentication**, marque o checkbox e depois clique em **Ativar**
 
-    <p align="center"><img src="./images/13.png" width="100%" /></p>          
-    
-14. No menu do lado esquerdo navegue novamente até **Diretório de Sites**, mas agora  clique no pequeno ícone **Acessar o site** do site que havia sido criado anteriormente.
+    <p align="center"><img src="./images/step_2_image_1.png" width="100%" /></p>          
+
+2. Agora atribuiremos a role que foi criada no Work Zone no nosso usuário.
+   Volte no subaccount do BTP, abra o menu **Security**, depois **Role Collection**. Em seguida, pesquise pela função `XP161_01` que havia sido criada no Work Zone e clique sobre ela para abrir os detalhes do lado direito. Então clique em **Editar** e desça até a área da tela **Users**. Adicione seu email no campo **ID** e no campo **Identity Provider** selecione a opção `Custom IAS tenant`. E salve a altereção.
+
+    <p align="center"><img src="./images/step_2_image_2.png" width="100%" /></p>     
+
+
+## Etapa 3: Testando seu aplicativo no Workzone
+
+1. Retorne ao SAP Build Work Zone e no menu do lado esquerdo navegue novamente até **Diretório de Sites**, mas agora  clique no pequeno ícone **Acessar o site** do site que havia sido criado anteriormente.
 
     <p align="center"><img src="./images/14.png" width="100%" /></p>          
 
