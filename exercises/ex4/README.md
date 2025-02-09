@@ -60,7 +60,7 @@ Nesta seção, o aplicativo será conectado com o SAP Build Work Zone, standard 
     <p align="center"><img src="./images/12.png" width="100%" /></p>    
 
 
-## Etapa 2: Habilitando a Autenticaçãoe e Atribuição das Permissões
+## Etapa 2: Habilitando a Autenticação e Atribuindo as Permissões
 
 1. Iremos habilitar o serviços de identidade em nuvem para o Work Zone.
     No menu lateral abra novamente o **Configuração**, clique na aba **Identity Authentication**, marque o checkbox e depois clique em **Ativar**
