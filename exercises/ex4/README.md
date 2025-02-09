@@ -75,11 +75,11 @@ Nesta seção, o aplicativo será conectado com o SAP Build Work Zone, standard 
 
 ## Etapa 3: Testando seu aplicativo no Workzone
 
-1. Retorne ao SAP Build Work Zone e no menu do lado esquerdo navegue novamente até **Diretório de Sites**, mas agora  clique no pequeno ícone **Acessar o site** do site que havia sido criado anteriormente.
+1. Retorne ao SAP Build Work Zone e no menu do lado esquerdo navegue novamente até **Diretório de Sites**, mas agora clique no pequeno ícone **Acessar o site** que havia sido criado anteriormente.
 
     <p align="center"><img src="./images/14.png" width="100%" /></p>          
 
-15. Nessa etapa você deve conseguir visualizar o seu aplicativo que foi desenvolvido na seção definida, abri-lo e navegar entre as páginas criadas.
+15. Nessa etapa você deve conseguir visualizar e navegar nas páginas do aplicativo que foi desenvolvido.
 
     <p align="center"><img src="./images/15.png" width="100%" /></p>     
 
