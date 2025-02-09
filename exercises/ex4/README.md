@@ -67,8 +67,8 @@ Nesta seção, o aplicativo será conectado com o SAP Build Work Zone, standard 
 
     <p align="center"><img src="./images/step_2_image_1.png" width="100%" /></p>          
 
-2. Agora atribuiremos a role que foi criada no Work Zone no nosso usuário.
-   Volte no subaccount do BTP, abra o menu **Security**, depois **Role Collection**. Em seguida, pesquise pela função `XP161_01` que havia sido criada no Work Zone e clique sobre ela para abrir os detalhes do lado direito. Então clique em **Editar** e desça até a área da tela **Users**. Adicione seu email no campo **ID** e no campo **Identity Provider** selecione a opção `Custom IAS tenant`. E salve a altereção.
+2. Agora atribuiremos a role que foi criada no Work Zone ao nosso usuário.
+   Volte no subaccount do BTP, abra o menu **Security**, depois **Role Collection**. Em seguida, pesquise pela função `XP161_01` que havia sido criada no Work Zone e clique sobre ela para abrir os detalhes do lado direito. Então clique em **Editar** e desça até a área da tela **Users**. Adicione seu email no campo **ID** e no campo **Identity Provider** selecione a opção `Custom IAS tenant`. Salve a altereção.
 
     <p align="center"><img src="./images/step_2_image_2.png" width="100%" /></p>     
 
