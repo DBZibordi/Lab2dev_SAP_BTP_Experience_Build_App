@@ -178,7 +178,7 @@ Agora vamos definir quais campos gostaríamos de exibir na interface do usuário
 
 2. Vá para **PROPERTIES**.
 
-3. Clique no botão do campo Primary Label **ABC**.
+3. Clique no botão do campo **Primary Label ABC**.
 
     <p align="center"><img src="./images/ex1_step4_nn3.png" width="40%" /></p>
 
@@ -194,7 +194,7 @@ Agora vamos definir quais campos gostaríamos de exibir na interface do usuário
 
 8. Vá para **PROPERTIES**.
 
-9. Clique no botão do campo Secondary Label **ABC**.
+9. Clique no botão do campo **Secondary Label ABC**.
 
 10. Selecione a opção **Data item in repeat**.
 
